@@ -23,6 +23,7 @@ first_number = 1
 rows = 10
 
 # Using loop and range
-for numbers in range(first_number, rows):
-    for pattern in range(first_number, rows):
+for numbers in range(first_number, rows + 1):
+    for pattern in range(first_number, rows + 1):
         print(numbers*pattern, end=" ")
+    print("")
